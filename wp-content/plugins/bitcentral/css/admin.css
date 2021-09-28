@@ -1,0 +1,57 @@
+/* CSS Document */
+
+#poststuff .acf_postbox .inside::after {
+    content: ' ';
+    display: block;
+    clear: both;
+    margin-bottom: 1em;
+}
+
+.resource_file_name {
+    margin-bottom: .5em;
+}
+
+.replace-resource-file::after {
+    content: ' ';
+    display: inline-block;
+    border-left: .5em solid transparent;
+    border-right: .5em solid transparent;
+    border-top: .5em solid #333;
+    margin-left: 1em;
+}
+.remove-resource-file { margin-left:1em; }
+.remove-resource-file::after {
+    content: '\00d7';
+    display: inline-block;
+    border: none;
+    margin-left: .67em;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    line-height: .67em;
+}
+
+input#resource_file {
+    margin-top: 1em;
+}
+
+body#tinymce.wp-editor.page-template-page-modal ol, body#tinymce.wp-editor.page-template-page-modal ul {
+    padding: unset;
+    margin: 0 0 0 2em;
+    list-style: unset;
+}
+#taxonomy-search-post div#search-post-adder {
+    display: none;
+}
+#search-post-tabs {
+    display: none;
+}
+.kfb-bold {
+    padding-right: .35em;
+}
+
+.acf-photo-gallery-metabox-list li {
+	width:40%;
+	height:auto;
+	box-sizing:border-box;
+}
